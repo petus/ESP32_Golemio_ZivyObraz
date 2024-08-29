@@ -4,6 +4,7 @@ Program pro ESP32 (v mém případě ESP32-C3 LPKit), které se přes Golemio AP
 Ten samý program má ještě další část kódu, která se opět dotazuje na Golemio API, jaké sběrné kontejnery jsou v okolí a kdy se vyváží. Definuje se skrze #define v setup.h.
 
 Původním autorem kódu pro ESP32 je https://github.com/kkodl/MHD_GW_ESP32
+PDF https://github.com/kkodl/MHD_GW_ESP32/blob/main/docs/ODJEZDY%20MHD%20V%20PRAZE.pdf
 Ten napsal první verzi a dále kód vylepšuje. 
 Já si tuhle verzi upravil dle svého pro mé vlastní potřeby.
 
