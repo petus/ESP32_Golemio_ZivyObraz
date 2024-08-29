@@ -94,6 +94,7 @@ void Request_Train(){
   http.begin(serverName.c_str());
   http.addHeader("Content-Type", "application/json; charset=utf-8");
   http.addHeader("X-Access-Token", auth_token);
+  //http.addHeader("Accept-Encoding: identity"); // ask for noncompressed data, otherwise it is gzip
   // Send HTTP GET request
   int httpResponseCode = http.GET();
   if (httpResponseCode>0) {
@@ -180,6 +181,7 @@ void Request_WasteStations(){
   http.begin(serverName.c_str());
   http.addHeader("Content-Type", "application/json; charset=utf-8");
   http.addHeader("X-Access-Token", auth_token);
+  //http.addHeader("Accept-Encoding: identity"); // ask for noncompressed data, otherwise it is gzip
   // Send HTTP GET request
   int httpResponseCode = http.GET();
   if (httpResponseCode>0) {
